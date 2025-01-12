@@ -14,7 +14,7 @@ const Header = () => {
         <CTA />
 
         <div className="me">
-          <img src={ME} alt="prolificCoder" />
+          <img src={ME} alt="profile image" />
         </div>
 
         <a href="#contact" className='scroll__down'>Scroll Down</a>
