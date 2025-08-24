@@ -1,0 +1,19 @@
+body {
+    font-family: "Roboto", monospace;
+    margin: 0;
+    background: var(--background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--white);
+
+}
+
+p {
+    color: var(--gray);
+}
+
+h2 {
+    font-size: 32px;
+}
+
