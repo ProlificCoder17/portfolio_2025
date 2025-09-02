@@ -413,5 +413,80 @@ header {
     transform: translateY(-2px);
 }
 
+/* SKLLS SECTION */
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.section-header {
+    text-align: center;
+}
+
+.section-header h2 {
+    font-size: 2.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.section-header h2::before {
+    content: "#";
+    color: var(--primary);
+    margin-right: 8px;
+}
+
+.skills-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.skill-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.skill-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.skill-category {
+    background: var(--background);
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid var(--gray);
+}
+
+.skill-category h4 {
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.skill-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-category ul li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.skill-category strong {
+    color: var(--white);
+    display: block;
+    margin-bottom: 5px;
+}
+
+.skill-category span {
+    color: var(--primary);
+    font-size: 0.9rem;
+}
 
 
