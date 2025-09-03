@@ -443,6 +443,11 @@ header {
     align-items: start;
 }
 
+.skills-content img {
+    width: 100%;
+    border-radius: 15px;
+}
+
 .skill-cards {
     display: flex;
     flex-direction: column;
@@ -463,7 +468,7 @@ header {
 }
 
 .skill-category h4 {
-    color: var(--primary);
+    color: var(--white);
     margin-bottom: 20px;
     font-size: 1.2rem;
 }
@@ -485,7 +490,7 @@ header {
 }
 
 .skill-category span {
-    color: var(--primary);
+    color: var(--gray);
     font-size: 0.9rem;
 }
 
