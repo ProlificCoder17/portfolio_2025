@@ -544,6 +544,56 @@ header {
     gap: 48px;
 }
 
+.contacts-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 60px;
+    align-items: start;
+}
+
+.contacts-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+}
+
+.contacts-card {
+    background: var(--background);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid var(--gray);
+}
+
+.contacts-card h4 {
+    color: var(--white);
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+
+.contact:hover {
+    background: var(--primary);
+}
+
+.contact img {
+    width: 24px;
+    height: 24px;
+}
+
+.contact span {
+    color: var(--primary);
+    font-weight: 500;
+}
 
 
 
