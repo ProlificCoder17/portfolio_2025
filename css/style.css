@@ -197,7 +197,7 @@ header {
     /*overflow: hidden*/
 }
 
-/*QOUTE BLOCKQOUTE*/
+/*QUOTE BLOCKQUOTE*/
 .quote blockquote {
     color: var(--white);
     font-size: 1.5rem;
@@ -413,7 +413,7 @@ header {
     transform: translateY(-2px);
 }
 
-/* SKLLS SECTION */
+/* SKILLS SECTION */
 .skills {
     display: flex;
     flex-direction: column;
@@ -536,4 +536,16 @@ header {
     border-radius: 15px;
     box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3);
 }
+
+/* CONTACT */
+.contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+
+
+
+
 
