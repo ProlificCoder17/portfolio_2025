@@ -711,3 +711,49 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 1rem;
+    }
+
+    .main-container {
+        padding: 100px 1rem 0;
+        gap: 60px;
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero-content h3 {
+        font-size: 1.2rem;
+    }
+
+    .projects-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .projects-header h2::after {
+        display: none;
+    }
+
+    .section-header h2 {
+        font-size: 2rem;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .social-links {
+        display: none;
+    }
+}
