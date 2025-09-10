@@ -757,3 +757,27 @@ footer {
         display: none;
     }
 }
+
+/* SMALL DEVICES */
+@media (max-width: 480px) {
+    .hero-content h2 {
+        font-size: 2rem;
+    }
+
+    .logo-name {
+        font-size: 1.5rem;
+    }
+
+    .contact-btn {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .skill-category {
+        padding: 20px;
+    }
+
+    .contacts-card {
+        padding: 20px;
+    }
+}
