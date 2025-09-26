@@ -1,0 +1,13 @@
+/*========= NAVBAR ========*/
+header {
+    padding: 1rem 0;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.4rem 0;
+}
