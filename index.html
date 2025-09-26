@@ -17,28 +17,45 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
+    <nav class="navbar main-container">
         <div class="logo-wrapper">
             <img src="assets/img/fiti.svg" alt="Website Logo" class="logo-img" />
             <h1 class="logo-name">ProlifiCoder17</h1>
         </div>
-        <ul class="nav-list">
+        <!-- Desktop Nav -->
+        <ul class="nav-list" id="navlist">
             <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="components/about.html" class="nav-link">About</a></li>
             <li class="nav-item"><a href="components/projects.html" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="components/contact.html" class="nav-link">Contact</a></li>
         </ul>
-        <img src="#" alt="Navbar burger icon" class="burger-icon">
+        <!-- Burger Menu -->
+        <div class="burger-wrapper">
+            <input type="checkbox" id="menu-toggle" />
+            <label for="menu-toggle" class="burger" aria-label="Toggle navigation">
+                <span>burger-line</span>
+                <span>burger-line</span>
+                <span>burger-line</span>
+            </label>
+        </div>
+        <!--<img src="assets/img/burger-icon.svg" alt="Navbar burger icon" class="burger-icon">-->
+        <!-- Mobile Nav -->
+        <div class="mobile-nav">
+            <a class="mobile-link" href="index.html">Home</a>
+            <a class="mobile-link" href="components/about.html">About</a>
+            <a class="mobile-link" href="components/projects.html">Projects</a>
+            <a class="mobile-link" href="components/contact.html">Contact</a>
+        </div>
     </nav>
 </header>
 
 <div class="social-links">
     <div class="social-links-line"></div>
     <ul>
-        <li><a href="https://github.com/prolificoder17"><img src="assets/img/github-icon.svg" alt="github icon"></a></li>
-        <li><a href="https://wa.me/+258856552351" target="_blank"><img src="assets/img/whatsapp-icon.svg" alt="whatsapp icon"></a></li>
-        <li><a href="https://outlook/prolificoder17"><img src="assets/img/mail-icon.svg" alt="Outlook icon"></a></li>
-        <li><a href="#"><img src="#" alt="LinkedIn icon"></a></li>
+        <li><a href="https://github.com/prolificoder17" target="_blank" rel="noopener"><img src="assets/img/github-icon.svg" alt="github icon"></a></li>
+        <li><a href="https://wa.me/+258856552351" target="_blank" rel="noopener"><img src="assets/img/whatsapp-icon.svg" alt="whatsapp icon"></a></li>
+        <li><a href="https://outlook/prolificoder17" target="_blank" rel="noopener"><img src="assets/img/mail-icon.svg" alt="Outlook icon"></a></li>
+        <li><a href="#" target="_blank" rel="noopener"><img src="assets/img/linkedin.svg" alt="LinkedIn icon"></a></li>
     </ul>
 </div>
 
@@ -52,13 +69,16 @@
                     I transform ideas into interactive digital experiences that inspire and empower.
                     Let's build impactful solutions that leave a lasting legacy.
                 </p>
-                <button class="contact-btn">Cv</button>
-                <button class="contact-btn">Lets Talk</button>
+                <!-- CTA BUTTONS -->
+                <div class="cta-group">
+                    <a href="assets/">CV</a>
+                    <a href="components/contact.html" class="btn btn-primary" aria-label="Contact Tatenda">Let's Talk</a>
+                </div>
             </div>
             <div class="hero-image">
                 <img src="assets/img/fiti.png" alt="Photo of Tatenda, Front-End developer">
                 <div class="portfolio-note-wrapper">
-                    <div class="purple-square"></div>
+                    <div class="purple-square" aria-hidden="true"></div>
                     <p class="portfolio-note">Currently working on <span>Portfolio</span></p>
                 </div>
             </div>
@@ -414,11 +434,11 @@
                 <div class="contacts-card">
                     <h4>Message me here</h4>
                     <div class="contact">
-                        <img src="#" alt="Discord icon">
-                        <span>Frost</span>
+                        <img src="assets/img/linkedin.svg" alt="LinkedIn icon">
+                        <span>Tatenda Muchenje</span>
                     </div>
                     <div class="contact">
-                        <img src="#" alt="Email icon">
+                        <img src="assets/img/gmail-icon.svg" alt="Email icon">
                         <span>prolificoder17</span>
                     </div>
                 </div>

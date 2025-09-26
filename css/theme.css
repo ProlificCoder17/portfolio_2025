@@ -1,6 +1,17 @@
-:root {
+/*:root {
     --primary: #C778D0;
     --gray: #6c757d;
     --background: #1E1E1E;
     --white: #ffffff;
+}*/
+
+:root {
+    --background: linear-gradient(135deg, #0b1220 0%, #0b1220 0%, #071026 50%, #000000 100%);
+    --primary: #a855f7;
+    --primary-600: #7c3aed;
+    --white: #ffffff;
+    --gray: #bfc7d4;
+    --muted: #9aa4b2;
+    --max-width: 1200px;
+    --radius: 12px;
 }
