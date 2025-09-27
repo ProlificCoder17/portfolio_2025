@@ -125,3 +125,18 @@ header {
 #menu-toggle:checked ~ .mobile-nav {
     display: flex;
 }
+
+/* TRANSFORM BURGER INTO X WHEN OPEN */
+#menu-toggle:checked + label .burger-line:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+#menu-toggle:checked + label .burger-line:nth-child(2) {
+    opacity: 0; transform: scaleX(0);
+}
+
+#menu-toggle:checked + label .burger-line:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
+
+
