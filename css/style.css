@@ -121,3 +121,7 @@ header {
     background-color: rgba(168, 85, 247, 0.06);
 }
 
+/* MOBILE NAV DISPLAY */
+#menu-toggle:checked ~ .mobile-nav {
+    display: flex;
+}
