@@ -94,3 +94,30 @@ header {
     transition: transform .25s ease, opacity .25s ease;
 }
 
+/* MOBILE NAV PANEL */
+.mobile-nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 72px;
+    background: rgba(5,7,12,0.88);
+    backdrop-filter: blur(6px);
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.mobile-nav .mobile-link {
+    color: var(--gray);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    display: block;
+}
+
+.mobile-nav .mobile-link:hover {
+    color: var(--white);
+    background-color: rgba(168, 85, 247, 0.06);
+}
+
