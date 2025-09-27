@@ -139,4 +139,42 @@ header {
     transform: translateY(-5px) rotate(-45deg);
 }
 
+/* HERO */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.5rem;
+    padding: 3rem 0;
+    min-height: 68vh;
+}
+
+/* LEFT CONTENT */
+.hero-content {
+    flex: 1;
+    max-width: 620px;
+}
+
+.hero-content h2 {
+    font-size: 2.25rem;
+    margin-bottom: 0.25rem;
+    line-height: 1.05;
+}
+
+.hero-content h2 span {
+    color: var(--primary);
+}
+
+.hero-content h3 {
+    font-size: 1rem;
+    color: var(--muted);
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    color: var(--gray);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+}
 
