@@ -61,3 +61,36 @@ header {
     color: var(--white);
     background-color: rgba(168,85,247,0.06);
 }
+
+/* BURGER MENU */
+.burger-wrapper {
+    display: none;
+    position: relative;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+/* Burger button */
+.burger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.04);
+}
+
+.burger-line {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--muted);
+    margin: 3px 0;
+    transition: transform .25s ease, opacity .25s ease;
+}
+
