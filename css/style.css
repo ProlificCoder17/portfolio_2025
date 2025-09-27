@@ -178,3 +178,46 @@ header {
     line-height: 1.7;
 }
 
+/* CTA GROUP */
+.cta-group {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.btn {
+    padding: 0.65rem 1.2rem;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    transition: transform .18s ease, box-shadow .18s ease;
+    font-size: 0.95rem;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--primary), var(--primary-600));
+    color: var(--white);
+    border: 2px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0 8px 24px rgba(124, 58, 237, 0.12);
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 36px rgba(124, 58, 237, 0.18);
+}
+
+.btn-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 2px solid rgba(168, 85, 247, 0.18);
+}
+
+.btn-outline:hover {
+    background: var(--primary);
+    color: var(--white);
+    transform: translateY(-3px);
+}
+
